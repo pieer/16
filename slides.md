@@ -146,7 +146,7 @@ clicks: 4
     I'm currently living in Koh Phangan, Thailand waiting for the world to open again.
   </p>
   <p>
-    I develop here a great balance between work and personal life which boost my efficiency and productivity.
+    I developed here a great balance between work and personal life which boost my efficiency and productivity.
   </p>
 </v-clicks>
 
