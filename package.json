@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.22.7",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "vueperslides": "^3.3.2"
+  },
+  "name": "13",
+  "devDependencies": {
+    "webpack-cli": "^4.8.0"
+  }
+}

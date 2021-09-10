@@ -1,0 +1,36 @@
+/* General -> todo: refactor into windicss configuration */
+p, ul {
+  font-family: 'Open Sans';
+  color: #fff;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Slide */
+.slidev-layout {
+  background-color: #56ac8a;
+  font-family: bangers;
+
+  h1 {
+    color: #fff;
+  }
+
+  p {
+    line-height: 1.7rem;
+  }
+
+  a, a:hover {
+    border-color: transparent;
+  }
+}
+
+.dark .slidev-layout {
+  background-color: #1b1b1b;
+}
+
+.col-right {
+  display: flex;
+  flex-direction: column-reverse;
+}
