@@ -66,25 +66,26 @@ layout: two-cols
   <h3 class="opacity-100">Frontend</h3>
   <p v-motion-slide-visible-bottom>
     <carbon:arrow-right class="inline-block mr-3"/>
-    SCSS, SASS, Stylus... Bootstrap, Windicss...
+    CSS3, Lottie, D3, Greensock...
   </p>
+
   <p v-motion-slide-visible-bottom>
     <carbon:arrow-right class="inline-block mr-3"/>
-    Vue 2 - 3, React, Polymer... Webpack... Axios...
+    Vue 2/3, TypeScript, GraphQL...
   </p>
 
   <h3 class="opacity-100">Backend</h3>
   <p v-motion-slide-visible-bottom>
     <carbon:arrow-right class="inline-block mr-3"/>
-    Nuxt, Laravel, Firebase...
+    NodeJS, Nuxt, Firebase, Algolia...
   </p>
   <p v-motion-slide-visible-bottom>
     <carbon:arrow-right class="inline-block mr-3"/>
-    Nginx, Google cloud, Cloudfare
+    Google cloud, AWS...
   </p>
 
   <h3 class="opacity-100 mt-6">
-    Ok, ok... I sniffed your technology stack...
+    I know... that a lot of ellipses...
     <carbon:face-wink class="inline-block mr-3"/>
   </h3>
 
@@ -94,7 +95,7 @@ layout: two-cols
   </h3>
 
   <h3 class="opacity-100">
-    And tested every single library!
+    Those are just my favorites (at the moment).
     <carbon:rocket class="inline-block mr-3"/>
   </h3>
 </v-clicks>
