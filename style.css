@@ -34,3 +34,36 @@ button:focus {
   display: flex;
   flex-direction: column-reverse;
 }
+
+.turn-me {
+  display: none;
+}
+
+@media only screen and (max-device-width: 640px) and (orientation: portrait) {
+  .turn-me {
+    position: absolute;
+    right: 2rem;
+    top: 4rem;
+    display: block;
+    font-size: 5rem;
+    color: #fff;
+  }
+}
+
+.is-touch {
+  display: none;
+}
+
+.not-touch {
+  display: block;
+}
+
+@media (pointer:coarse) {
+  .is-touch {
+    display: inline-block;
+  }
+
+  .not-touch {
+    display: none;
+  }
+}

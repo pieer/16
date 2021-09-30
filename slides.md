@@ -20,9 +20,17 @@ clicks: 4
       :style='$slidev.nav.clicks === 4 ? "transform: scaleX(-1); transform-origin: 50%;" : ""'/>
 
 <div class="pt-12" v-if="$slidev.nav.clicks < 1">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="text-white bg-white bg-opacity-10">
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer not-touch" hover="text-white bg-white bg-opacity-10">
     Press Space <carbon:arrow-right class="inline"/>
   </span>
+
+  <span class="is-touch">
+    <mdi:gesture-swipe class="text-white text-4xl"/>
+  </span>
+
+  <div class="turn-me">
+    <mdi:phone-rotate-landscape class="animate-bounce"/>
+  </div>
 </div>
 
 <img
