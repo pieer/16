@@ -10,10 +10,10 @@ clicks: 4
 ---
 
 <Bubble :direction="$slidev.nav.clicks < 4 ? 'left' : 'right'">
-<h2 v-if="$slidev.nav.clicks === 1" v-motion-slide-bottom>Ahoy!</h2>
-<h2 v-if="$slidev.nav.clicks === 2" v-motion-slide-bottom>My name is <br/><strong class='text-4xl'>Pierre</strong></h2>
-<h2 v-if="$slidev.nav.clicks === 3" v-motion-slide-bottom>I'm a frontend developer</h2>
-<h2 v-if="$slidev.nav.clicks === 4" v-motion-slide-bottom>And I would like to work with you!</h2>
+<h2 v-if="$slidev.nav.clicks === 1" v-motion-slide-up>Ahoy!</h2>
+<h2 v-if="$slidev.nav.clicks === 2" v-motion-slide-up>My name is <br/><strong class='text-4xl'>Pierre</strong></h2>
+<h2 v-if="$slidev.nav.clicks === 3" v-motion-slide-up>I'm a frontend developer</h2>
+<h2 v-if="$slidev.nav.clicks === 4" v-motion-slide-up>And I would like to work with you!</h2>
 </Bubble>
 
 <Face :chat="$slidev.nav.clicks"
@@ -32,13 +32,13 @@ clicks: 4
     <mdi:phone-rotate-landscape class="animate-bounce"/>
   </div>
 </div>
-
+<!-- 
 <img
   v-if="$slidev.nav.clicks < 1"
   class="absolute -bottom-9 -left-7 w-80 opacity-50"
   src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<div v-if="$slidev.nav.clicks < 1" class="ft-2 absolute bottom-45 left-71 opacity-30 transform -rotate-42">Options here!</div>
+/> -->
+<!-- <div v-if="$slidev.nav.clicks < 1" class="ft-2 absolute bottom-45 left-71 opacity-30 transform -rotate-42">Options here!</div> -->
 ---
 theme: seriph
 background: null
@@ -50,11 +50,11 @@ layout: two-cols
 <v-clicks>
 <p v-motion-slide-visible-left><span class='opacity-50'>I'm glad you ask!</span></p>
 
-<p v-motion-slide-visible-bottom><carbon:education class="inline-block mr-3"/>15 years of frontend and backend experience</p>
-<p v-motion-slide-visible-bottom><carbon:touch-1-down class="inline-block mr-3"/>My passion for design, UX and animation</p>
+<p v-motion-slide-visible-bottom><carbon:education class="inline-block mr-3"/>17 years of frontend and backend experience</p>
+<p v-motion-slide-visible-bottom><carbon:touch-1-down class="inline-block mr-3"/>Passion for design, UX, and animation</p>
 <p v-motion-slide-visible-bottom><carbon:cognitive class="inline-block mr-3"/>My independent and pro-active attitude</p>
 <p v-motion-slide-visible-bottom><carbon:events class="inline-block mr-3"/>An awesome team spirit</p>
-<p v-motion-slide-visible-bottom><carbon:train-heart class="inline-block mr-3"/>My motivation to create the best UX!</p>
+<p v-motion-slide-visible-bottom><carbon:train-heart class="inline-block mr-3"/>Expertise and desire to create the best UX!</p>
 </v-clicks>
 
 ::right::
@@ -119,15 +119,15 @@ class: 'text-center'
 clicks: 2
 ---
 
-<h1 v-motion-slide-top class="pb-4">Experience</h1>
+<h1 v-motion-slide-down class="pb-4">Experience</h1>
 
-<p v-if="$slidev.nav.clicks === 0" v-motion-slide-bottom class="max-w-screen-sm m-auto">
+<p v-if="$slidev.nav.clicks === 0" v-motion-slide-up class="max-w-screen-sm m-auto">
   For the past few years I've been working with Greg Pollack and Evan You to create the Vue Mastery website that teaches developers to use Vue.
 </p>
-<p v-if="$slidev.nav.clicks === 1" v-motion-slide-bottom class="max-w-screen-sm m-auto">
-  I'm also an active developer on the project Group Income that is an efficient, fair, decentralized Basic Income system for everyone.
+<p v-if="$slidev.nav.clicks === 1" v-motion-slide-up class="max-w-screen-sm m-auto">
+  I'm also an active developer on the project Group Income that's an efficient, fair, decentralized Basic Income system for everyone.
 </p>
-<p v-if="$slidev.nav.clicks === 2" v-motion-slide-bottom class="max-w-screen-sm m-auto">
+<p v-if="$slidev.nav.clicks === 2" v-motion-slide-up class="max-w-screen-sm m-auto">
   For 10 years I had the opprotunity to work with talented people in creative agencies and received few awards along the way.
 </p>
 
@@ -140,22 +140,22 @@ layout: two-cols
 clicks: 4
 ---
 
-<h1 v-motion-slide-top>Remote worker / traveler</h1>
+<h1 v-motion-slide-down>Remote worker / traveler</h1>
 
 <v-clicks>
-  <p v-motion-slide-top>
-    <span class='opacity-50'>Living my best life until...
-    <span v-if="$slidev.nav.clicks > 0">you know <carbon:face-mask class="inline-block"/></span>
+  <p v-motion-slide-down>
+    <span class='opacity-50'>Living my best life...
+    <span v-if="$slidev.nav.clicks > 0"> <carbon:face-cool class="inline-block"/></span>
   </span>
   </p>
   <p>
-    I've been working remotely for the past 5 years, learning along the way how to manage my time and fighting procrastination.
+    I've been working remotely for the past 7 years, learning along the way how to manage my time and fight procrastination.
   </p>
   <p>
-    I'm currently living in Koh Phangan, Thailand waiting for the world to open again.
+    I'm currently living in France for the Summer, and heading to Asia again for the Winter.
   </p>
   <p>
-    I developed here a great balance between work and personal life which boost my efficiency and productivity.
+    Through working remotely, I developed a great balance between my work and personal lives which boosted my efficiency and productivity.
   </p>
 </v-clicks>
 
@@ -171,4 +171,4 @@ class: text-center
 
 # Learn More
 
-[Email](mailto:schweiger.pierre@gmail.com) · [GitHub](https://github.com/pieer) · [Linkedin](https://www.linkedin.com/in/schweigerpierre/)
+[Email](mailto:schweiger.pierre@gmail.com) · [GitHub](https://github.com/pieer) · [LinkedIn](https://www.linkedin.com/in/schweigerpierre/)

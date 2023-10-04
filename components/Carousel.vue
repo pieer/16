@@ -8,6 +8,10 @@
       image: 'vue-mastery.jpg',
       link: 'https://www.vuemastery.com/'
     }, {
+      title: 'advaya',
+      image: 'advaya.png',
+      link: 'https://advaya.life/'
+    }, {
       title: 'nanda hobbs',
       image: 'nanda-hobbs.jpg',
       link: 'https://nandahobbs.com/'
