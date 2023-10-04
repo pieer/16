@@ -57,7 +57,7 @@ layout: two-cols
 <p v-motion-slide-visible-bottom><carbon:train-heart class="inline-block mr-3"/>Expertise and desire to create the best UX!</p>
 
 <h3 v-motion-slide-visible-bottom>
-  Oh... and I'm currently working on the migration from Vue 2 to Vue for Vue Mastery, which might be an interesting detail for you.
+  Oh... and I'm currently working on the migration from Vue 2 to Vue 3 for Vue Mastery, which might be an interesting detail for you.
 </h3>
 </v-clicks>
 
